@@ -1,24 +1,19 @@
-# usol-frontend
+# Wally — simple home finance app.
 
-## Project setup
-```
-npm install
-```
+> ### This repository contains client-side (frontend). For server-side (backend) see [WallyBackend](https://github.com/akmetainfo/WallyBackend)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# How it works
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This application based on [Vue.js](https://vuejs.org/).
 
-### Lints and fixes files
-```
-npm run lint
-```
+# Installation
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Quick guide:
+
+- Modify API_URL in config.js to point at your backend
+- Set up DEFAULT_CURRENCY
+- Run `npm build build` and publish files from `dist` folder
+
+# License
+
+Licenced under an MIT licence.
