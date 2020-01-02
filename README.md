@@ -12,6 +12,7 @@ Quick guide:
 
 - Modify API_URL in config.js to point at your backend
 - Set up DEFAULT_CURRENCY
+- Set up `defaultLocale` in `\i18n\index.js` (supported languages: `en`, `ru`)
 - Run `npm build build` and publish files from `dist` folder
 
 # License
